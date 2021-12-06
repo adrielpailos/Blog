@@ -12,19 +12,33 @@ export const RepositoriesContent = styled.section`
         width:40rem;
         font-size:3rem;
     }
+    @media(max-width: 700px) {
+        h2{
+            margin-left:1rem;
+            justify-content:center;
+            align-items:center;
+            width:100%;
+        }
+    }
 `
 export const SlideContainer = styled.section`
     height:30rem;
     display:flex;
     align-items:center;
     justify-content: center;
-
+    @media(max-width: 1241px) {
+        flex-wrap:wrap;
+        height:100%;
+    }
 `
 export const Sliders = styled.div`
-    cursor:e-resize;
     display:flex;
     align-items:center;
-    justify-content: center;
+    justify-content: space-around;
+    width:100%;
+    @media(max-width: 1241px) {
+        margin:1rem;
+    }
 `
 export const SliderFlex = styled.div`
     cursor:default;
@@ -131,6 +145,21 @@ export const Pictures = styled.section`
         width:40rem;
         font-size:3rem;
     }
+    @media(max-width: 834px) {
+        span{
+            align-self:center;
+        
+        }
+        h2{
+            justify-content:center;
+        }
+    }
+    @media(max-width: 800px) {
+        height:50rem;
+        span{
+            height:13rem;
+        }
+    }
 `
 export const WrapPic = styled.div`
     display:flex;
@@ -139,6 +168,9 @@ export const WrapPic = styled.div`
     width:90%;
     height:20rem;
     flex-wrap:wrap;
+    @media(max-width: 800px) {
+        height:50rem;
+    }
 `
 export const PicDiv = styled.div`
     background: url(${props => props.pic});

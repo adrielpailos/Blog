@@ -26,6 +26,7 @@ const GlobalStyle = createGlobalStyle`
         &::-webkit-scrollbar-track { 
             display:none;
         }
+        scroll-behavior: smooth;
     }       
 `
 export default  GlobalStyle

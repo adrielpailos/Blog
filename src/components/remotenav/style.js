@@ -14,17 +14,15 @@ export const Container = styled.section`
     }
 `
 export const Button = styled.button`
+    color:#fff;
     cursor: pointer;
-    a{
-        color:#fff;
-    }
     background-image: linear-gradient(122deg, 
         rgba(30,30,30,1) 0%, 
         rgba(90,90,90,1)  51%, 
         rgba(50,50,50,1)  100%)}
     background-size: 300%;
-    margin: 1rem;
-    padding: 0.5rem 2rem;
+    width:7rem;
+    height:3rem;
     text-align: center;
     text-transform: uppercase;
     transition: 1.15s;

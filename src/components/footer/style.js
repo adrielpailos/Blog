@@ -16,4 +16,11 @@ export const Container = styled.section`
         flex-direction:column;
         justify-content:space-around;
     }
+    @media(max-width: 800px) {
+        div{   
+            width:100%;
+            margin-left:1rem;
+            margin-right:1rem;
+        }
+    }
 `

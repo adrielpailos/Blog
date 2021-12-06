@@ -23,7 +23,7 @@ export const Container = styled.section`
         height:50%;
     }
     div{
-        width:50%;
+        width:100%;
         height:70%;
         display:flex;
         justify-content:space-around;
@@ -50,6 +50,8 @@ export const Socials = styled.nav`
     justify-content:space-around;
     a{
         cursor: pointer;
-        
+    }
+    @media(max-width: 600px) {
+        width:50%;
     }
 `
