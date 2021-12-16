@@ -18,9 +18,11 @@ export function Footer (){
 		aboutparagraph,
   } = data.blogdata.footers[0]
   return(
-    <S.Container id="about">
+    <S.Container>
+        <span>
+      	  <h2>{titleAbout}</h2>
+        </span>
 				<div>
-					<h2>{titleAbout}</h2>
 					<p>{aboutparagraph}</p>
 				</div>
     </S.Container>

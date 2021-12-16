@@ -7,7 +7,7 @@ export const Container = styled.section`
     display:flex;
     flex-direction:column;
     width:100%;
-    height:80vh;
+    height:90vh;
     h1{
         font-size:3rem;
         margin:2rem;

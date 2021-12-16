@@ -1,10 +1,15 @@
 import styled, { keyframes } from 'styled-components'
 export const Container = styled.section`
+    height:90vh;
     color:#eee;
     background:rgba(45,45,45,1);
+    display:flex;
+    align-items:center;
+    justify-content:center;
 `
 export const RepositoriesContent = styled.section`
     h2 {
+        border-bottom:solid 1px;
         display:flex;
         align-items:end;
         justify-content:flex-end;
@@ -22,7 +27,10 @@ export const RepositoriesContent = styled.section`
     }
 `
 export const SlideContainer = styled.section`
-    height:30rem;
+    border-bottom:solid 1px;
+    border-left:solid 1px;
+    height:70vh;
+    width:90vw;
     display:flex;
     align-items:center;
     justify-content: center;

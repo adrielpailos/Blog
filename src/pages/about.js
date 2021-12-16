@@ -1,15 +1,13 @@
 import React from 'react'
-import { Header } from '../components/header'
+import { Footer } from '../components/footer'
 import NavBar from '../components/remotenav'
 import GlobalStyle from '../components/global/globalstyles'
-
-export default function Index(){
+export default function About (){
   return(
     <div>
-      <title>Blog</title>
       <GlobalStyle/>
-      <Header/>
       <NavBar/>
+      <Footer/>
     </div>
   )
 }

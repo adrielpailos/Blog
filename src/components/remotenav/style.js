@@ -2,11 +2,11 @@ import styled from 'styled-components'
 export const Container = styled.section`
     display:flex;
     width:100%;
-    height:15%;
+    height:10vh;
     align-self:baseline;
     background: rgba(30,30,30,1);
     nav{
-        width:20rem;
+        width:50rem;
         height:100%;
         display:flex;
         justify-content:space-around;

@@ -1,15 +1,13 @@
 import React from 'react'
-import { Header } from '../components/header'
+import { Main } from '../components/main'
 import NavBar from '../components/remotenav'
 import GlobalStyle from '../components/global/globalstyles'
-
-export default function Index(){
+export default function Projects (){
   return(
     <div>
-      <title>Blog</title>
       <GlobalStyle/>
-      <Header/>
       <NavBar/>
+      <Main/>
     </div>
   )
 }
